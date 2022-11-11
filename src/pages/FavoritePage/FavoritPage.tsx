@@ -8,7 +8,7 @@ export const FavoritPage = () => {
     }
     
     return(
-        <div  className="flex justify-center pt-10 mx-auto h-screen w-screen">
+        <div  className="flex justify-center mb-2 pt-10 mx-auto h-screen w-screen">
             <ul className="list-nonne">
                 {favourites.map(item => (
                     <li className='border-2 border-zinc-900 rounded-md py-4 px-5 hover:text-blue-500' key={item}>
